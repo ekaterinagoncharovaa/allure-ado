@@ -1,0 +1,17 @@
+{
+  "name": "webinar-1-playwright-allure",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:allure": "allure run -- playwright test --project=chromium",
+    "report": "allure open allure-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "allure": "^3.16.0",
+    "allure-playwright": "^3.11.1",
+    "typescript": "^5.5.0"
+  }
+}
