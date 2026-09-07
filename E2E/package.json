@@ -7,9 +7,9 @@
     "test:chromium": "playwright test --project=chromium"
   },
   "devDependencies": {
-    "@allurereport/plugin-testops": "3.14.3",
+    "@allurereport/plugin-testops": "3.16.1",
     "@playwright/test": "^1.55.0",
-    "allure": "3.14.3",
+    "allure": "3.16.1",
     "allure-playwright": "^3.10.2",
     "typescript": "^5.5.0"
   }
